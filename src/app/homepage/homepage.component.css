@@ -1,0 +1,10 @@
+.background{
+    height:45em; background-size:cover; width:auto;
+    background-image:url('src\app\pictures\images (1).jpg');
+    background-position:100% 100%;
+}
+
+.btn-lg{
+    background-color : red;
+    margin: 10px;
+}

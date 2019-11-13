@@ -1,0 +1,39 @@
+<div class="background">
+
+        <div class="header">
+            <h1>Login</h1>
+        </div>
+
+    <div class=radiobutton>
+
+
+
+
+
+            <!-- Default inline 1-->
+
+            <input type="radio" ng-model="myVar" value="dogs" name="group1" class="1">Farmer
+            <input type="radio" ng-model="myVar" value="tuts" name="group1" class="2">Buyer
+            <input type="radio" ng-model="myVar" value="cars" name="group1" class="3">Agricultural Officer
+            <input type="radio" ng-model="myVar" value="cars" name="group1" class="4">Admin
+     </div>>
+
+
+       <form action="action_page.php" method="post">
+
+
+
+                <div class="container">
+                  <label for="uname" ><b>Email</b></label>
+                  <input type="text" placeholder="Your Email" name="uname" required>
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <button type="submit" (click)="onLogin()">Login</button>
+
+                </div>
+
+
+              </form>
+</div>
